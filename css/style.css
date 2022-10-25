@@ -1,0 +1,1504 @@
+*{
+	font-family: Arial;
+	padding: 0;
+	margin: 0;
+}
+
+.antet{
+	background-image: url(../imagini/img2.jpg);
+	background-size: 110% 170%;
+	background-repeat: no-repeat;
+	margin: 0;
+	padding: 0;
+	height: 150px;
+	width: auto;
+	overflow: visible;
+}
+
+.logo{
+	float: left;
+}
+
+.imaginelogo{
+	margin-left: 70px;
+	margin-top: 10px;
+}
+
+#titlu{
+	color: white;
+	padding-top: 115px;
+	font-size: 25px;
+	padding-left: 20px;
+}
+
+.deviza{
+	color: white;
+	font-style: italic;
+	font-weight: bold;
+	font-size: 35px;
+	text-shadow: 10px 10px 10px black;
+	text-align: center;
+	margin-top: -80px;
+}
+
+.meniu{
+	background-color: #000d82;
+	width: auto;
+	height: 120px;
+}
+
+.container{
+	text-align: center;
+	padding-top: 10px;
+}
+
+.meniu li{
+	display: inline-block;
+	margin-top: 15px;
+	font-size: 30px;
+	background-color: blue;
+	border-radius: 5px;
+}
+
+li, a{
+	color: white;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 10px;
+}
+
+li a:hover{
+	background-color: #0718b3;
+	border-radius: 5px;
+	margin-left: -10px;
+	margin-right: -10px;
+}
+
+li a:link{
+	color: white;
+}
+
+li a:active{
+	color: black;
+}
+
+.fundal{
+	background-image: url(../imagini/img3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.subsol{
+	background-color: #000d82;
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	height: 70px;
+	margin-top: 0;
+}
+
+.container{
+	padding-top: 17px;
+}
+
+.mesaj{
+	background-color: rgba(0, 0, 255, 0.6);
+}
+
+#containermesaj{
+	color: white;
+	padding: 188px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 25px;
+}
+
+.titluautent{
+	color: black;
+	font-size: 30px;
+}
+
+.form{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 300px;
+	margin-top: 0;
+	line-height: 40.2px;
+	padding-top: 20px;
+}
+
+#container_form_autent{
+	line-height: 40px;
+}
+
+.formgroup{
+	margin-top: 30px;
+	text-align: center;
+}
+
+.inputinregistrare{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+.inputinregistrare:hover{
+	background-color: #003ec4;
+}
+
+input[type=text]{
+	background-color: none;
+	border-radius: 5px;
+	width: 240px;
+	height: 25px;
+}
+
+input[type=password]{
+	background-color: none;
+	border-radius: 5px;
+	width: 240px;
+	height: 25px;
+}
+
+input[type=date]{
+	background-color: none;
+	border-radius: 5px;
+	width: 240px;
+	height: 25px;
+}
+
+input[type=email]{
+	background-color: none;
+	border-radius: 5px;
+	width: 240px;
+	height: 25px;
+}
+
+.inputlogin{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	margin-left: 60px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+}
+
+.inputlogin:hover{
+	background-color: #003ec4;
+}
+
+.titlulogin{
+	color: black;
+	text-align: center;
+	font-size: 30px;
+}
+
+.formlogin{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 300px;
+	margin-top: 0;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.container_form_login{
+	margin-left: 140px;
+	line-height: 20px;
+}
+
+.formgroup_login{
+	margin-top: 30px;
+	margin-left: 290px;
+}
+
+.formresetare{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: 450px;
+	margin-left: 340px;
+	margin-top: 40px;
+	line-height: 40px;
+	padding-top: 20px;
+	margin-bottom: 70px;
+}
+
+.container_form_resetare{
+	line-height: 35px;
+}
+
+.formgroup_resetare{
+	margin-top: 50px;
+}
+
+.titluresetare{
+	margin-top: 40px;
+	color: black;
+	font-size: 30px;
+}
+
+.input_resetare_parola{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 40px;
+}
+
+.input_resetare_parola:hover{
+	background-color: #003ec4;
+}
+
+.contact{
+	background-color: rgba(0, 0, 255, 0.6);
+	height: 413px;
+}
+
+.container_contact{
+	color: white;
+	padding-top: 110px;
+	padding-left: 50px;
+	font-size: 25px;
+	display: block;
+}
+
+.harta{
+	margin-left: 680px;
+	margin-top: -225px;
+	display: block;
+}
+
+.selectarejudet{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.selectareoras{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.inputemail{
+	background-color: none;
+	border-radius: 5px;
+	width: 240px;
+	height: 25px;
+}
+
+.inputnrbuletin{
+	background-color: none;
+	border-radius: 5px;
+	width: 240px;
+	height: 25px;
+}
+
+.fundal_admin{
+	background-image: url(../imagini/img3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.formlogin_admin{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: 440px;
+	margin-left: 340px;
+	margin-top: 50px;
+	line-height: 40.2px;
+	padding-top: 20px;
+}
+
+.formlogin_admin_container{
+	margin-left: 140px;
+	line-height: 40px;
+}
+
+.formlogin_admin_group{
+	margin-top: 10px;
+	margin-left: 290px;
+}
+
+.logo_admin{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.btn_login_admin{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	margin-left: 60px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_login_admin:hover{
+	background-color: #003ec4;
+}
+
+.avertizare{
+	background-color: blue;
+	margin-bottom: 0;
+	height: 60px;
+	overflow: visible;
+	text-align: center;
+	color: white;
+	padding-top: 8px;
+}
+
+.carti{
+	background-color: rgb(30, 28, 231);
+}
+
+.cont{
+	font-size: 30px;
+	border-style: solid;
+	border-color: rgb(30, 28, 231);
+	padding: 30px;
+	display: inline-block;
+}
+
+.fundal_admin{
+	background-image: url(../imagini/img3.jpg);
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+}
+
+.container_meniu{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 138px;
+}
+
+.bara_meniu{
+	background-color: blue;
+}
+
+.titlu_meniu{
+	text-align: center;
+	color: white;
+	font-weight: bold;
+	font-size: 60px;
+	padding-bottom: 25px;
+}
+
+.adaugacartea{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_adaugacartea{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.modificacartea{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_modificacartea{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.stergecartea{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_stergecartea{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.adaugaexemplare{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_adaugaexemplare{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.stergecititorul{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_stergecititorul{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+#table{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-top: 110px;
+	padding-bottom: 185px;
+}
+
+table{
+	line-height: 18px;
+}
+
+#container_table{
+	color: black;
+	text-align: center;
+}
+
+.btn_printare{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 40px;
+	font-weight: bold;
+}
+
+.btn_printare:hover{
+	background-color: #003ec4;
+}
+
+#raport{
+	text-align: center;
+	overflow: visible;
+}
+.bara_deconectare{
+	background-color: blue;
+	overflow: visible;
+	padding-bottom: 12px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.formlogin_bibliotecar{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: 440px;
+	margin-left: 340px;
+	margin-top: 50px;
+	line-height: 40.2px;
+	padding-top: 20px;
+}
+
+.formlogin_bibliotecar_container{
+	margin-left: 140px;
+	line-height: 40px;
+}
+
+.formlogin_bibliotecar_group{
+	margin-top: 10px;
+	margin-left: 290px;
+}
+
+.logo_bibliotecar{
+	margin-top: 20px;
+	text-align: center;
+}
+
+.btn_login_bibliotecar{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	margin-left: 60px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_login_bibliotecar:hover{
+	background-color: #003ec4;
+}
+
+.panou_de_control{
+	display: inline;
+	text-align: center;
+}
+
+.panou_de_control_group{
+	text-align: center;
+	margin-left: -90px;
+}
+
+.form_adaugacartea{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 340px;
+	margin-top: 130px;
+	line-height: 30px;
+	padding-top: 20px;
+	padding-bottom: 30px;
+}
+
+.form_container_adaugacartea{
+	text-align: center;
+}
+
+.adaugare_carte{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 140px;
+	margin-top: 20px;
+}
+
+.adaugare_carte:hover{
+	background-color: #003ec4;
+}
+
+.gen{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.editura{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.autor{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.stoc{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.form_stergecartea{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 340px;
+	margin-top: 130px;
+	line-height: 40px;
+	padding-top: 20px;
+	padding-bottom: 118px;
+}
+
+.form_container_stergecartea{
+	text-align: center;
+	margin-top: 90px;
+}
+
+.stergere_carte{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 20px;
+}
+
+.stergere_carte:hover{
+	background-color: #003ec4;
+}
+
+.form_modificacartea{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 340px;
+	margin-top: 100px;
+	line-height: 25px;
+	padding-top: 10px;
+	padding-bottom: 18px;
+}
+
+.form_modificacartea_container{
+	text-align: center;
+	margin-top: 30px;
+}
+
+.form_adaugaexemplare{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 340px;
+	margin-top: 90px;
+	line-height: 30px;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.form_adaugaexemplare_container{
+	text-align: center;
+	margin-top: 90px;
+}
+
+.carte{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.adaugare_exemplar{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 20px;
+}
+
+.adaugare_exemplar: hover{
+	background-color: #003ec4;
+}
+
+.form_stergecititorul{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 340px;
+	margin-top: 100px;
+	line-height: 43px;
+	padding-top: 10px;
+	padding-bottom: 132px;
+}
+
+.form_stergecititorul_container{
+	text-align: center;
+	margin-top: 80px;
+}
+
+.stergere_cititor{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 20px;
+}
+
+.stergere_cititor:hover{
+	background-color: #003ec4;
+}
+
+.despre_noi{
+	background-color: rgba(0, 0, 255, 0.6);
+}
+
+.despre_noi_container{
+	color: white;
+	padding: 110px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.container_materiale{
+	margin-left: 0;
+}
+
+.carti_1{
+	background-color: rgb(30, 28, 231);
+	width: 350px;
+	margin-top: 20px;
+	display: inline-flex;
+	margin-left: 23px;
+	box-shadow: black;
+	border-radius: 7px;
+}
+
+.carti_1_container{
+	padding: 20px 30px;
+	overflow: visible;
+	margin-left: 30px;
+	margin-top: 30px;
+}
+
+.img_carte{
+	margin-left: 80px;
+	margin-top: 15px;
+}
+
+.link_carte{
+	margin-left: 30px;
+}
+
+.link_carte:active{
+	color: white;
+}
+
+.link_carte:hover{
+	color: rgb(1,0,104);
+}
+
+.materiale{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 87px;
+}
+
+.container_materiale{
+	
+}
+
+.inregistrare{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 100px;
+}
+
+.inregistrare_container{
+	padding-top: 110px;
+	padding-left: 50px;
+}
+
+.login{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 100px;
+}
+
+.login_container{
+	padding-top: 110px;
+	padding-left: 50px;
+}
+
+.imprumut{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 100px;
+}
+
+.imprumut_container{
+	padding-top: 110px;
+	padding-left: 50px;
+}
+
+.form_imprumut{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 300px;
+	margin-top: 0;
+	padding-bottom: 40px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.container_form_imprumut{
+	margin-left: 300px;
+	line-height: 30px;
+}
+
+.btn_rezervare{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	margin-left: 60px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_rezervare:hover{
+	background-color: #003ec4;
+}
+
+.anulare_imprumut{
+	background-color: rgba(0, 0, 255, 0.6);
+	height: 485px;
+}
+
+.anulareimprumut_container{
+	margin-left: 300px;
+	line-height: 30px;
+	padding-top: 35px;
+}
+
+.form_anulareimprumut{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: 393px;
+	margin-left: 50px;
+	margin-top: 0;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.container_form_anulare_imprumut{
+	margin-left: 290px;
+	line-height: 40px;
+	margin-top: 40px;
+}
+
+.btn_anulare{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	margin-left: 60px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_anulare:hover{
+	background-color: #003ec4;
+}
+
+.prelungireimprumut{
+	background-color: rgba(0, 0, 255, 0.6);
+	height: 485px;
+}
+
+.prelungireimprumut_container{
+	margin-left: 300px;
+	line-height: 30px;
+	padding-top: 35px;
+}
+
+.btn_prelungire{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	margin-left: 60px;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_prelungire:hover{
+	background-color: #003ec4;
+}
+
+.form_prelungireimprumut{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: 393px;
+	margin-left: 50px;
+	margin-top: 0;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.container_form_prelungire_imprumut{
+	margin-left: 290px;
+	line-height: 30px;
+	margin-top: 30px;
+}
+
+.select_cititor{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.form_adaugaautorul{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 350px;
+	margin-top: 80px;
+	padding-bottom: 40px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.form_adaugaautorul_container{
+	margin-left: 10px;
+	line-height: 40px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.adaugaautorul{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_adaugaautorul{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.adaugare_autor{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 140px;
+	margin-top: 20px;
+}
+
+.adaugare_autor:hover{
+	background-color: #003ec4;
+}
+
+.form_adaugaeditura{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 350px;
+	margin-top: 80px;
+	padding-bottom: 40px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.container_form_adaugaeditura{
+	margin-left: 10px;
+	line-height: 25px;
+	margin-top: 40px;
+	text-align: center;
+}
+
+.adaugaeditura{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_adaugaeditura{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.adaugare_editura{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 140px;
+	margin-top: 20px;
+}
+
+.adaugare_editura:hover{
+	background-color: #003ec4;
+}
+
+.form_adaugagenul{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 350px;
+	margin-top: 80px;
+	padding-bottom: 90px;
+	padding-top: 20px;
+}
+
+.container_form_adaugagenul{
+	margin-left: 10px;
+	line-height: 25px;
+	margin-top: 98px;
+	text-align: center;
+}
+
+.adaugare_gen{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 140px;
+	margin-top: 20px;
+}
+
+.adaugare_gen:hover{
+	background-color: #003ec4;
+}
+
+.adaugagenul{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_adaugagenul{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.afisare_carte{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 20px;
+}
+
+.container_afisare_carte{
+	color: white;
+	padding: 110px;
+	font-weight: bold;
+	font-style: italic;
+	font-size: 20px;
+}
+
+.detalii_carte{
+	background-color: rgba(227, 236, 235, 0.8);
+	width: 450px;
+	margin-left: 700px;
+	margin-top: -410px;
+	padding-bottom: 60px;
+	border-radius: 7px;
+}
+
+.continut_detalii_carte{
+	text-align: justify;
+	font-weight: normal;
+	color: black;
+	font-style: normal;
+	margin-left: 100px;
+	padding-top: 90px;
+}
+
+.carti_2{
+	background-color: rgb(30, 28, 231);
+	width: 440px;
+	margin-top: 10px;
+	display: inline-flex;
+	margin-left: 90px;
+	box-shadow: black;
+	border-radius: 7px;
+}
+
+.container_carti_2{
+	padding: 10px 30px;
+	overflow: visible;
+	margin-left: -30px;
+	margin-top: -10px;
+}
+
+.bara_user{
+	background-color: blue;
+	overflow: visible;
+	padding-bottom: 12px;
+	padding-top: 15px;
+	text-align: center;
+}
+
+.text_avertizare{
+	color: red;
+	font-style: italic;
+}
+
+.text_succes{
+	color: green;
+	font-style: italic;
+}
+
+.eroare{
+	background-color: red;
+	margin-bottom: 0;
+	height: 60px;
+	width: auto;
+	overflow: visible;
+	text-align: center;
+	color: white;
+	padding-top: 8px;
+}
+
+.resetare{
+	background-color: rgba(0, 0, 255, 0.6);
+}
+
+.selectareexemplar{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.eroare_inregistrare{
+	font-size:16px; 
+	font-weight:bold;
+	color: white;
+	background-color: red;
+	width: 300px;
+	margin-left: -20px;
+	display: block;
+}
+
+.eroare_inregistrare_container{
+	text-align: center;
+}
+
+.stergeexemplarul{
+	background-color: blue;
+	width: 600px;
+	margin-left: 545px;
+}
+
+.container_stergeexemplarul{
+	font-size: 30px;
+	padding: 20px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.form_stergeexemplarul{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 340px;
+	margin-top: 130px;
+	line-height: 50px;
+	padding-top: 20px;
+	padding-bottom: 118px;
+}
+
+.form_container_stergeexemplarul{
+	text-align: center;
+	margin-top: 90px;
+}
+
+.stergere_exemplar{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 20px;
+}
+
+.stergere_exemplar:hover{
+	background-color: #003ec4;
+}
+
+.carte{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.cautare_raport{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.btnprintare{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-top: 20px;
+	padding-bottom: 40px;
+}
+
+.incarcare_coperta{
+	display: inline-flex;
+  	align-items: center;
+}
+
+.fisier_incarcare{
+	display: none;
+}
+
+.btn_incarcare_fisier{
+  -webkit-appearance: none;
+  background: blue;
+  border: 2px solid blue;
+  border-radius: 4px;
+  outline: none;
+  padding: 0.5em 1.6em;
+  color: #ffffff;
+  font-size: 15px;
+  font-family: Arial;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.btn_incarcare_fisier:active{
+	background-color: darkblue;
+}
+
+.eticheta_fisier{
+	max-width: 250px;
+	font-size: 0.95em;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap;
+	font-family: Arial;
+}
+
+.btn_cautare{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 5px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_cautare:hover{
+	background-color: #003ec4;
+}
+
+.imprumuturi_efectuate{
+	background-color: rgba(0, 0, 255, 0.6);
+	height: 413px;
+}
+
+.container_imprumuturi_efectuate{
+	color: white;
+	padding-top: 110px;
+	font-size: 25px;
+	display: block;
+}
+
+.profil{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 100px;
+}
+
+.container_profil{
+	padding-top: 110px;
+	padding-left: 50px;
+}
+
+.form_profil{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 300px;
+	margin-top: 0;
+	padding-bottom: 40px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.container_form_profil{
+	line-height: 30px;
+}
+
+.btn_actualizare{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_actualizare:hover{
+	background-color: #003ec4;
+}
+
+.reset{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-bottom: 100px;
+}
+
+.reset_container{
+	padding-top: 110px;
+	padding-left: 50px;
+}
+
+.formreset{
+	background-color: rgba(227, 236, 235, 0.8);
+	display: inline-block;
+	width: 840px;
+	height: auto;
+	margin-left: 300px;
+	margin-top: 0;
+	padding-bottom: 40px;
+	line-height: 40px;
+	padding-top: 20px;
+}
+
+.container_form_reset{
+	line-height: 30px;
+}
+
+.btn_trimitere{
+	text-align: center;
+	background-color: blue;
+	border-color: blue;
+	color: white;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	width: 130px;
+	margin-top: 30px;
+}
+
+.btn_trimitere:hover{
+	background-color: #003ec4;
+}
+
+.optiune_prelungire{
+	background-color: blue;
+	width: 400px;
+}
+
+.container_optiune_prelungire{
+	font-size: 30px;
+	padding: 60px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.optiune_anulare{
+	background-color: blue;
+	width: 400px;
+}
+
+.container_optiune_anulare{
+	font-size: 30px;
+	padding: 60px 30px;
+	overflow: visible;
+	text-align: center;
+}
+
+.cautare_carte{
+	background-color: rgba(0, 0, 200, 0.8);
+}
+
+.link_pagina{
+	background-color: darkblue;
+	border-radius: 5px;
+}
+
+.cautare_imprumut{
+	background-color: rgba(0, 0, 255, 0.6);
+	padding-top: 20px;
+	padding-left: 20px;
+}
+
+.cautare_pagina{
+	background-color: rgba(0, 0, 255, 0.6);
+}
+
+.selectarestoc{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.selectareeditura{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.selectareautor{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
+
+.selectaregen{
+	background-color: none;
+	width: 245px;
+	height: 30px;
+	border-radius: 5px;
+}
